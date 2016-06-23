@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2016/6/16.
- */
 public class TestOperator {
 	public static void main(String[] args) {
 		int r = 10 % 3;
@@ -36,11 +33,11 @@ public class TestOperator {
 		x =x/1000;
 		System.out.println(x);
 
-		//+�Ӻų��ַ�����ӵĹ����⣬���ܰѷ��ַ���ת�����ַ���
+		//+�Ӻų��ַ�����ӵĹ����⣬���ܰѷ��ַ���ת�����ַ���?
 		String str5 = "i1";
 		System.out.println(str5 + 10);
 
-		//��չ��ֵ�������+=....
+		//��չ��ֵ�������?+=....
 		x += 1000;
 		//x=x+1000
 		System.out.println(x);
@@ -49,11 +46,11 @@ public class TestOperator {
 
 		int a = 10;
 		int b = 20;
-		System.out.println(a > 5 & b < 10);//false
+		System.out.println(a > 5 & b < 10)                                                                                         ;//false
 
 		System.out.println(a > 15 && (10 / 10 == 1));//false
 
-		//��Ԫ����� ���������ʽ)?���ʽ1�����ʽ2��
+		//��Ԫ�����? ����������?)?����?1������?2��
 
 
 	}

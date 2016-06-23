@@ -5,15 +5,15 @@
 import java.util.Scanner;
 
 /**
- * 1)¶ÁÈëÈı¸öÕûÊı£¬ÓÃif else½øĞĞ½âÊÍ
+ * 1)è¯»å…¥ä¸‰ä¸ªæ•´æ•°ï¼Œç”¨if elseè¿›è¡Œè§£é‡Š
  */
 public class Testif {
 	public static void main(String[] args) {
-		// ÔÚ¿ØÖÆÌ¨ÊäÈëÕûÊı
-		// ´´½¨scanner¶ÔÏó
-		System.out.println("ÇëÊäÈëÈı¸öÕûÊı");
-		Scanner scanner = new Scanner(System.in);//²ÎÊı(System.in)
-		// µ÷ÓÃscanner¶ÔÏóµÄnextInt£¨£©·½·¨¶ÁÈëÊäÈëµÄÕûÊı
+		// åœ¨æ§åˆ¶å°è¾“å…¥æ•´æ•°
+		// åˆ›å»ºscannerå¯¹è±¡
+		System.out.println("è¯·è¾“å…¥ä¸‰ä¸ªæ•´æ•°");
+		Scanner scanner = new Scanner(System.in);//å‚æ•°(System.in)
+		// è°ƒç”¨scannerå¯¹è±¡çš„nextIntï¼ˆï¼‰æ–¹æ³•è¯»å…¥è¾“å…¥çš„æ•´æ•°
 		System.out.println("a1=");
 		int a1 = scanner.nextInt();
 
@@ -23,7 +23,7 @@ public class Testif {
 		System.out.println("a3=");
 		int a3 = scanner.nextInt();
 
-		System.out.println("ÄãÊäÈëµÄÈı¸öÕûÊı·Ö±ğÎª£º"+a1+","+a2+","+a3);
+		System.out.println("ä½ è¾“å…¥çš„ä¸‰ä¸ªæ•´æ•°åˆ†åˆ«ä¸ºï¼š"+a1+","+a2+","+a3);
 
 		if (a1 <= a2) {
 			if (a3 <= a1) {
@@ -71,7 +71,7 @@ public class Testif {
 		System.out.println(x);
 
 		Scanner scanner1 = new Scanner(System.in);
-		System.out.println("ÊäÈëÑ§ÉúµÄÑ§Éú³É¼¨,source=");
+		System.out.println("è¾“å…¥å­¦ç”Ÿçš„å­¦ç”Ÿæˆç»©,source=");
 		int source = scanner1.nextInt();
 		switch (source/10) {
 			case 10:
@@ -88,11 +88,5 @@ public class Testif {
 			default:
 				System.out.println("D");
 		}
-		/**
-		 * ÊäÈë2013ÄêµÄÄ³¸öÔÂ·İºÍÈÕÆÚ£¬ÀıÈç4ÔÂ month=4,day=21
-		 * ¾­¹ı³ÌĞòµÄ¼ÆËã£¬´òÓ¡³öÊäÈëµÄÔÂ·İºÍÈÕÆÚÊÇ2013ÄêµÄµÚ¼¸Ìì  31+28+31+21
-		 */
-
-
 	}
 }
